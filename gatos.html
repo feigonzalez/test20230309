@@ -4,26 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
     <title>Ayuda a un peludo</title>
 </head>
 <body>
-    <div align="right"><a href="index.html">Inicio</a></div>
+    <div class="navbar">
+        <div><a href="index.html">Inicio</a></div>
+        <div><a href="perros.html">Perros</a></div>
+        <div class="active"><a href="gatos.html">Gatos</a></div>
+        <div><a href="contacto.html">Contacto</a></div>
+        <div><a href="nosotros.html">Nosotros</a></div>
+    </div>
     <center><h1>GATOS EN ADOPCIÓN</h1></center>
     <center><p>Aquí podrás ver a nuestros gatos que buscan una familia</p></center>
     <center><h2>Nuestros Gatos que buscan familia:</h2></center>
-    <center><table>
-            <tr>
-                <td><img src="img/ginger.png"></td>
-                <td><a href="ginger.html">Ginger</a></td>
-            </tr>
-            <tr>
-                <td><img src="img/tommy.png"></td>
-                <td><a href="tommy.html">Tommy</a></td>
-            </tr>
-            <tr>
-                <td><img src="img/lucifer.png"></td>
-                <td><a href="lucifer.html">Lucifer</a></td>
-            </tr>
-        </table></center>
+    <div class="gallery">
+        <div class="galleryItem">
+            <a href="ginger.html">
+                <img src="img/ginger.png">
+                <span class="galleryLabel">Ginger</span>
+            </a>
+        </div>
+        <div class="galleryItem">
+            <a href="tommy.html">
+                <img src="img/tommy.png">
+                <span class="galleryLabel">Tommy</span>
+            </a>
+        </div>
+        <div class="galleryItem">
+            <a href="lucifer.html">
+                <img src="img/lucifer.png">
+                <span class="galleryLabel">Lucifer</span>
+            </a>
+        </div>
+    </div>
 </body>
 </html>

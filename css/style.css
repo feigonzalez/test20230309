@@ -1,0 +1,26 @@
+body{margin:0}
+div.navbar{display:flex;background:#79D;margin:0;padding:0;}
+div.navbar div{display:inline-block;background:#79D}
+div.navbar div a{display:inline-block;text-decoration:none;color:#FFF;padding:0.5em}
+div.navbar div:hover{background:#8BF}
+div.navbar div.active{background:#67B}
+
+.gallery{display:grid;grid-template-columns:repeat(auto-fill, 40vh);place-content:center}
+.gallery a{text-decoration:none}
+.gallery img{display:block;margin:auto}
+.galleryLabel{display:block;text-align:center;text-decoration:none;}
+
+span.formLabel{display:inline-block;text-align:left;width:6rem;vertical-align:top}
+.formRow input{width:14rem;}
+.formRow textarea{width:14rem;height:6rem}
+
+.columnContainer{display:flex}
+.columnContainer>div{display:inline-block}
+.column-2{width:50%;padding:1em}
+
+ul.labeled span.label{display:inline-block;width:6em;font-weight:bold;}
+ul.labeled li{list-style-type:none;text-indent:-1rem}
+ul.labeled span.label:after{content:": "}
+.closeup{width:100%}
+.imgLabel{display:block;font-size:0.8rem;text-align:right;font-style:italic;}
+#map{width:100%}

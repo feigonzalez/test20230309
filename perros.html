@@ -4,26 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
     <title>Ayuda a un peludo</title>
 </head>
 <body>
-    <div align="right"><a href="index.html">Inicio</a></div>
+    <div class="navbar">
+        <div><a href="index.html">Inicio</a></div>
+        <div class="active"><a href="perros.html">Perros</a></div>
+        <div><a href="gatos.html">Gatos</a></div>
+        <div><a href="contacto.html">Contacto</a></div>
+        <div><a href="nosotros.html">Nosotros</a></div>
+    </div>
     <center><h1>PERROS EN ADOPCIÓN</h1></center>
     <center><p>Aquí podrás ver a nuestros perros que buscan una familia</p></center>
     <center><h2>Nuestros Perros que buscan familia:</h2></center>
-    <center><table>
-        <tr>
-            <td><img src="img/cachulo.png"></td>
-            <td><a href="cachulo.html">Cachulo</a></td>
-        </tr>
-        <tr>
-            <td><img src="img/nina.png"></td>
-            <td><a href="nina.html">Niña</a></td>
-        </tr>
-        <tr>
-            <td><img src="img/flaca.png"></td>
-            <td><a href="flaca.html">Flaca</a></td>
-        </tr>
-    </table></center>
+    <div class="gallery">
+        <div class="galleryItem">
+            <a href="cachulo.html">
+                <img src="img/cachulo.png">
+                <span class="galleryLabel">Cachulo</span>
+            </a>
+        </div>
+        <div class="galleryItem">
+            <a href="nina.html">
+                <img src="img/nina.png">
+                <span class="galleryLabel">Niña</span>
+            </a>
+        </div>
+        <div class="galleryItem">
+            <a href="flaca.html">
+                <img src="img/flaca.png">
+                <span class="galleryLabel">Flaca</span>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
